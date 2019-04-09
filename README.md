@@ -1,5 +1,7 @@
-#Demo Sentry Flask
-###Setup Guide
+# Demo Sentry Flask
+
+### Setup Guide
+
 Clone the project:
 
 ```
