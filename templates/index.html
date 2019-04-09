@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/403" method="get">
+    <input type="submit" value="403" onClick="confirm(this.form)">
+</form>
+
+<form action="/404" method="get">
+    <input type="submit" value="404" onClick="confirm(this.form)">
+</form>
+
+<form action="/500" method="get">
+    <input type="submit" value="500" onClick="confirm(this.form)">
+</form>
+
+
+<script type="text/javascript">
+function confirm(form){
+    alert("Wao, hacking?");
+    form.submit();
+}
+</script>
+</body>
+</html>
